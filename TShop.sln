@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShop.App", "TShop.App\TSho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShop.Modal", "TShop.Modal\TShop.Modal.csproj", "{7931457E-A278-453C-BB59-70CBA8A0B1BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShop.Common", "TShop.Common\TShop.Common.csproj", "{8C6C0CBB-C719-45A1-A33E-EADF4236703D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7931457E-A278-453C-BB59-70CBA8A0B1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7931457E-A278-453C-BB59-70CBA8A0B1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7931457E-A278-453C-BB59-70CBA8A0B1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6C0CBB-C719-45A1-A33E-EADF4236703D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6C0CBB-C719-45A1-A33E-EADF4236703D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6C0CBB-C719-45A1-A33E-EADF4236703D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6C0CBB-C719-45A1-A33E-EADF4236703D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

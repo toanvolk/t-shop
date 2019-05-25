@@ -45,6 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -179,6 +185,24 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TShop.Common\TShop.Common.csproj">
+      <Project>{8c6c0cbb-c719-45a1-a33e-eadf4236703d}</Project>
+      <Name>TShop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TShop.Data\TShop.Data.csproj">
+      <Project>{172b89d6-c41e-4dd3-90de-119742763e5d}</Project>
+      <Name>TShop.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TShop.Modal\TShop.Modal.csproj">
+      <Project>{7931457e-a278-453c-bb59-70cba8a0b1bb}</Project>
+      <Name>TShop.Modal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TShop.Service\TShop.Service.csproj">
+      <Project>{72b4298c-e04f-46b8-a412-cfae30670157}</Project>
+      <Name>TShop.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

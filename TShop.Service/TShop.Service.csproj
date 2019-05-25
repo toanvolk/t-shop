@@ -43,5 +43,19 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TShop.Common\TShop.Common.csproj">
+      <Project>{8c6c0cbb-c719-45a1-a33e-eadf4236703d}</Project>
+      <Name>TShop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TShop.Data\TShop.Data.csproj">
+      <Project>{172b89d6-c41e-4dd3-90de-119742763e5d}</Project>
+      <Name>TShop.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TShop.Modal\TShop.Modal.csproj">
+      <Project>{7931457e-a278-453c-bb59-70cba8a0b1bb}</Project>
+      <Name>TShop.Modal</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
